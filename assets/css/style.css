@@ -11,6 +11,24 @@ header {
     padding: 30px;
 }
 
+#register {
+    color: red;
+    float: right;
+    margin-right: 10px;
+}
+
+#log-in {
+    float: right;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 140px;
+}
+
 .title {
     text-align: center;
 }
