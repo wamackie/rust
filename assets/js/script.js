@@ -3,7 +3,8 @@ function greet(name) {
 }
 
 function newThread() {
-    document.getElementById("new-thread").innerHTML = "Hello World";
+    document.getElementById("new-thread").style.visibility = "hidden";
+    document.getElementById("form-thread").style.visibility = "visible";
 }
 
 greet('John');

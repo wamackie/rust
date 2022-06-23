@@ -40,6 +40,15 @@ header {
     text-align: center;
 }
 
+#form-thread {
+    visibility: hidden;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     margin: 0;
 }
