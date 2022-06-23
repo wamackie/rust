@@ -49,6 +49,14 @@ table {
     margin-right: auto;
 }
 
+tbody {
+    text-align: left;
+}
+
+.post-input {
+    width: 295px;
+}
+
 h1 {
     margin: 0;
 }
