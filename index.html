@@ -20,7 +20,32 @@
         <h1 class="title">Coding</h1>
     </header>
     <div id="board-title">
-        <h2>New Thread</h2>
+        <h2 id="new-thread" onclick="newThread()">New Thread</h2>
+        <form>
+            <table>
+                <tbody>
+                    <tr data-type="Name">
+                        <td>Name</td>
+                        <td>
+                            <input name="name" type="text">
+                        </td>
+                    </tr>
+                    <tr data-type="Subject">
+                        <td>Subject</td>
+                        <td>
+                            <input name="sub" type="text">
+                            <input type="submit" value="Post">
+                        </td>
+                    </tr>
+                    <tr data-type="Comment">
+                        <td>Comment</td>
+                        <td>
+                            <textarea name="com" cols="48" rows="4" wrap="soft"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
  
     <div class="flexbox-container">
